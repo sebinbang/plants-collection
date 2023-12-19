@@ -1,0 +1,40 @@
+
+
+body{font-family: 'Nanum Gothic', sans-serif;
+}
+
+h1,h2,h3,h4{font-family: 'Roboto', sans-serif;
+}
+
+/* 네비게이션 영역 */
+.nav-link:hover,
+.nav-link.active {
+    color: #CDFB4B !important;
+    font-family: 'Nanum Gothic'
+}
+/* 헤더 영역 */
+header{background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(images/plant1.png);
+    background-size:cover;
+    background-position:center top;
+    background-attachment:fixed; 
+}
+
+#easy-plants{background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/image3.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* 서비스 섹션 */
+.card-hover:hover {
+    background-color: #D9F194;
+}
+
+/* 영상 섹션 */
+#video{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(images/video.png);
+    background-size: cover;
+    background-position: center;
+}
+
+a{color:white}
